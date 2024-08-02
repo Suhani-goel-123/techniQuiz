@@ -38,11 +38,12 @@ enter the required pdf url in the given space as shown in the below screen.
 
 
 
-After clicking on generate MCQ, 2 MCQs are generated, tick the most suitable answer and then at bottom select **Show result**
+After clicking on generate MCQ, 5 MCQs are generated, tick the most suitable answer and then at bottom select **Show result**
 
 
 
-![image](https://github.com/user-attachments/assets/f252911b-7c19-4445-b082-9c7da944fe5a)
+![image](https://github.com/user-attachments/assets/183c154e-977d-4995-830c-fda4ce865837)
+
 
 
 
