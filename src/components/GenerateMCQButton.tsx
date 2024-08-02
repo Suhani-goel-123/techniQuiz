@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 interface GenerateMCQButtonProps {
-  pdfUrl: string; // Changed from courseId to pdfUrl
+  pdfUrl: string;
 }
 
 interface MCQ {
@@ -16,16 +16,21 @@ const GenerateMCQButton = ({ pdfUrl }: GenerateMCQButtonProps) => {
   const [generatedMCQs, setGeneratedMCQs] = useState<MCQ[]>([]);
   const [userAnswers, setUserAnswers] = useState<string[]>([]);
   const [showResults, setShowResults] = useState(false);
+  const [statusMessage, setStatusMessage] = useState('');
 
   const handleGenerateMCQs = async () => {
     setLoading(true);
+    setStatusMessage('Generating MCQs... Please wait.');
+
     try {
-      const response = await axios.post("/api/generate-mcq"); // Send PDF URL to API
+      const response = await axios.post('/api/generate-mcq', { pdfUrl });
       setGeneratedMCQs(response.data);
       setUserAnswers(Array(response.data.length).fill(""));
       setShowResults(false);
+      setStatusMessage('MCQs generated successfully!');
     } catch (error) {
-      console.error("Error generating MCQs:", error);
+      console.error('Error generating MCQs:', error);
+      setStatusMessage('Error generating MCQs. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -56,6 +61,7 @@ const GenerateMCQButton = ({ pdfUrl }: GenerateMCQButtonProps) => {
       >
         {loading ? "Generating MCQs..." : "Generate MCQs"}
       </button>
+      {statusMessage && <p>{statusMessage}</p>}
       {generatedMCQs.length > 0 && !showResults && (
         <div>
           <h3 className="text-xl font-semibold mb-4">Generated MCQs:</h3>
