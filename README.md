@@ -1,6 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Techni-Quiz
+Techni-Quiz is a MCQ-generator device powered by Gemini-API, Next.js and Node.js, which recieves a PDF-url from user and generates 
+<ins>**Multiple Choice Question**</ins> 
+for revision, learning and testing purpose.
+
+
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
