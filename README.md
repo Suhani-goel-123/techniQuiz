@@ -28,6 +28,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Adding Gemini API
 Navigate to ```.env``` folder and paste your self generated API key after ```GEMINI_API_KEY=``` statement.
+# Demo Video
+
+
+https://github.com/user-attachments/assets/72165825-5b02-471b-b4cb-c3875e32e2bb
+
 
 
 ### Enter pdf url
