@@ -31,7 +31,10 @@ Navigate to ```.env``` folder and paste your self generated API key after ```GEM
 # Demo Video
 
 
-https://github.com/user-attachments/assets/72165825-5b02-471b-b4cb-c3875e32e2bb
+
+https://github.com/user-attachments/assets/dec7186a-e869-4142-88fd-b16ac66e3332
+
+
 
 
 
