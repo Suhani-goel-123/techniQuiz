@@ -38,24 +38,23 @@ https://github.com/user-attachments/assets/dec7186a-e869-4142-88fd-b16ac66e3332
 
 
 
-### Enter pdf url
-enter the required pdf url in the given space as shown in the below screen. 
-
-
-![image](https://github.com/user-attachments/assets/c15be2c8-49b5-44a9-a338-7aa4da08b1d3)
-
-
-
-After clicking on generate MCQ, 5 MCQs are generated, tick the most suitable answer and then at bottom select **Show result**
-
-
-
-![image](https://github.com/user-attachments/assets/183c154e-977d-4995-830c-fda4ce865837)
+### Working
+➙ enter the required pdf url in the given space as shown in the below screen. 
 
 
 
 
-The Correct answer is highlighted.
+
+➙ After clicking on generate MCQ, 5 MCQs are generated, tick the most suitable answer and then at bottom select **Show result**
+
+
+
+
+
+
+
+
+➙ The Correct answer is highlighted.
 
 
 
