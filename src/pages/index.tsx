@@ -5,7 +5,7 @@ import GenerateMCQButton from '../components/GenerateMCQButton';
 export default function Home() {
   const [pdfUrl, setPdfUrl] = useState("");
 
-  const handleUrlChange = (event) => {
+  const handleUrlChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPdfUrl(event.target.value);
   };
 
