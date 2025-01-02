@@ -1,4 +1,5 @@
 # Techni-Quiz
+### Learn Smarter, Test Faster
 Techni-Quiz is a MCQ-generator device powered by Gemini-API, Next.js and Node.js, which recieves a PDF-url from user and generates 
 <ins>**Multiple Choice Question**</ins> 
 for revision, learning and testing purpose.
@@ -63,6 +64,11 @@ https://github.com/user-attachments/assets/dec7186a-e869-4142-88fd-b16ac66e3332
 - Next.js
 - Node.js
 - Tailwind css
+
+# Key Benefits:
+- Fast, automated MCQ generation from PDFs.
+- Instant feedback with highlighted correct answers.
+- Interactive learning and revision at your fingertips.
 
 
 
